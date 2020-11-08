@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerInputs : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Funções de pegar itens usando raycasts(em desenvolvimento)
     public GameObject objeto;
     [SerializeField] private Material hightlight;
     public void Couple(string child) {
