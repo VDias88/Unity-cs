@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MainGerenci : MonoBehaviour
 {
-    // Funções simples para esconder cursor ao iniciar 
+    // Start is called before the first frame update
     void Start()
     {
         Cursor.visible = false;

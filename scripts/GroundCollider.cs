@@ -5,7 +5,7 @@ using UnityEngine;
 public class GroundCollider : MonoBehaviour
 {
 
-    //Função teste usando triggers de um sphere collider
+    // Start is called before the first frame update
     SphereCollider colisor;
     public bool backCol;
     void Start()
