@@ -1,0 +1,224 @@
+--------Execução-----------
+csc programa.csc
+.\programa
+---------------------------
+
+-------Bibliotecas---------
+using biblioteca;
+System-biblioteca padrao-para escrever e mostrar dados
+---------------------------
+
+-------metodos-------------
+protecao retorno nome(parametros){codigo }
+static void Main(){}--metodo principal
+
+---------------------------
+
+--------variaveis---------
+tipo nome=atribuição; ou
+tipo nome1,nome2;
+
+---tipos
+int-numeros inteiros-32 bits
+byte-inteiro de 8 bits
+long-int com mais bytes
+float-decimais
+double-float com mais bytes
+decimal-
+char-caractere-uso de ''
+string-conjunto de chars
+---
+
+---string
+string-conjunto de chars-uso de ""
+var nome=atribuição-variavel sera do tipo da atribuição dada
+---
+
+---conversão de dados
+tipo.Parse(outro tipo)-converte string para int
+Convert.Totipo()-converte tipo para outro tipo
+(tipo)outro tipo;-forçar conversao(type cast)
+(valores).ToString();
+---
+--------------------------
+
+---------console----------
+Console.WriteLine(dados);-escreve algo no console
+variavel=Console.ReadLine();-ler dados do teclado
+Console.Clear();limpa console
+csc nomeprograma.exe--.\programa
+--------------------------
+
+---------Constantes-------
+const tipo=atribuição;
+--------------------------
+
+--------Formatação--------
+("Varivel 1:{0}, Variavel 2:{1}",varivel1,variavel2);-concatenação com indices
+(variavel+""+variavel)
+indices-{n1,n2}-n1-variavel por ordem
+               -n2-espaço
+               :c-indica formato de saido em monetario reais
+               :p-formato de saida em porcentagem
+ToString("Formato")-P-porcentagem
+                    C-moeda
+                    D-decimal
+                    E-exponencial
+                    F-ponto fixo(numero de casas)
+                    X-hexadecimal
+--------------------------
+
+----------Enumeradores------------
+enum nome{elementos};-comecando do 0
+acessar---
+objetoenum nome=objetoenum.elemento;
+objetoenum nome={objetoenum}indice;
+---
+---------------------------------
+
+-----------if-else---------------
+if(condição){codigo}
+if(condição){}else{}
+if(codnição){}else if(condição 2){}
+---------------------------------
+
+--------------switch-case--------
+switch (variavel){
+    case condição 1:
+        codigo;
+        break;
+    case condição 2:
+        codigo;
+    default:
+        codigo;
+        break;
+}
+caso a variavel satisfaça a condição 1 o codigo sera executado
+se a condição 2 o codigo 2 e o codigo default sera executado
+---------------------------------
+
+----------got-to-----------------
+usado para retornar a qualquer lugar apontado
+nome:
+ goto nome;
+--------------------------------
+
+--------------Array-------------
+tipo[] nome=new tipo[tamanho];
+tipo[] nome=new tipo[tamanho]{elemento1,elemento2}
+tipo[] nome=new tipo[]{elemento1,elemento2}
+
+matrizes---
+tipo[,] nome=new tipo[linhas,colunas];
+---
+nome.Length-numero tamanho da matriz
+métodos---
+Array.BinarySearch(list,elemento para achar na lista)-retorna posição,-1 se não achar
+Array.Copy(vetororigem,vetordestino,quantidade)-copia a quantidade de elemenso para outro array
+Array_para_coiar.copyTo(vetordestino,a_partir_de_qual)-copiar do array para outro a partir de um alemento
+Array.GetLowerBound(dimensoes)-retorna menor indice da matris ou array
+Array.GetUpperBound(dimensoes)-retorna maior indice da matris ou array
+Array.GetValue(localização)-retorna o elemento em determinada localização(necessita usar cast)
+Array.IndexOf(list,elemento)-retorna primeira posiçao do elemento
+Array.LastIndexOf(list,elemento)-retorna ultima posição do elemento
+Array.Reverse(lista)-inverter ordem dos elementos
+Array.SetValue(novo valor,posição)-setar valor em uma posição
+Array.Sort(list)-ordena em ordem crescente
+
+---
+--------------------------------
+
+-----------for------------------
+for(contador;condiçao;contador++){
+
+}
+--------------------------------
+
+-----------while----------------
+while(condição){
+    codigo para repedição enquanto a condição for verdadeira
+}
+
+do---
+do{
+comandos executam pelo menos uma vez
+}while(condição);
+---
+
+--------------------------------
+
+---------for-each---------------
+usado para percorrer arrays
+
+foreach(tipo variavel in nomedoarray){
+    para cada repetição um elemento do array vai ser colocado como variavel
+}
+--------------------------------
+
+-----------Random---------------
+Random--classe para elementos randomicos
+Random nome=new Random();
+variavel=random.Next()-inteiro qualquer,(numero)-numero randomico vai ser ate "numero"
+Next(n1,n2)-numero será de n1 ate n2
+--------------------------------
+
+----Modificadores---------------
+
+de classe---
+public-sem restrição de visualização
+abstract-bases de outras classes
+sealed-não pode ser herdada
+static-não permite a instancia de uma classe,não permite construtores,devem ter membros e atributos static(Classe.metodo ou atributo)
+---
+
+de acesso---
+public-sem restrição de acesso
+private-so podem ser acessados pela propria classe
+protected-ser acessados na propria classe
+abstract-metodos não tem implementação somente cabeçalho
+sealed-metodo não pode ser redefinido
+virtual-metodo pode ser redefinido em uma classe derivada
+static-metodo pode ser chamado mesmo sem instanciação de objeto
+---
+--------------------------------
+
+-------classes------------------
+caso nao colocado modificador ele sera public
+class Nome{
+
+}
+instanciar---
+Objeto nome=new Objeto();
+---
+
+this-apontar atributo do objeto
+
+getters-setters---
+
+---
+--------------------------------
+
+-------construtor---------------
+metodo sera ativado ao criar objeto
+nome do metodo deve ser o mesmo da classe
+modificador Objeto(parametros){
+codigo
+}
+sobrecarga---
+usando mesmo construtor com parametros diferentes
+para automatizar instanciamentos
+---
+--------------------------------
+
+--------destrutor---------------
+será ativado quando objeto for destruido
+~Objeto(parametros){
+codigo
+}
+--------------------------------
+
+---------Herança----------------
+class ClasseFilho:ClasseHeranca{
+
+}
+--------------------------------
