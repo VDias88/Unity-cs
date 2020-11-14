@@ -1,0 +1,15 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\Área de Trabalho\HACKEMAN\C#\WindForms\WindForms\bin\Debug\WindForms.exe.config
+C:\Users\vinic\OneDrive\Área de Trabalho\Área de Trabalho\HACKEMAN\C#\WindForms\WindForms\bin\Debug\WindForms.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\Área de Trabalho\HACKEMAN\C#\WindForms\WindForms\bin\Debug\WindForms.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\Área de Trabalho\HACKEMAN\C#\WindForms\WindForms\obj\Debug\WindForms.csprojAssemblyReference.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\Área de Trabalho\HACKEMAN\C#\WindForms\WindForms\obj\Debug\WindForms.Properties.Resources.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\Área de Trabalho\HACKEMAN\C#\WindForms\WindForms\obj\Debug\WindForms.csproj.GenerateResource.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\Área de Trabalho\HACKEMAN\C#\WindForms\WindForms\obj\Debug\WindForms.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\Área de Trabalho\HACKEMAN\C#\WindForms\WindForms\obj\Debug\WindForms.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\Área de Trabalho\HACKEMAN\C#\WindForms\WindForms\obj\Debug\WindForms.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\Área de Trabalho\HACKEMAN\C#\WindForms\WindForms\obj\Debug\WindForms.Form1.resources
+C:\Users\vinic\OneDrive\Área de Trabalho\Área de Trabalho\HACKEMAN\C#\WindForms\WindForms\bin\Debug\WindForms.exe.manifest
+C:\Users\vinic\OneDrive\Área de Trabalho\Área de Trabalho\HACKEMAN\C#\WindForms\WindForms\bin\Debug\WindForms.application
+C:\Users\vinic\OneDrive\Área de Trabalho\Área de Trabalho\HACKEMAN\C#\WindForms\WindForms\obj\Debug\WindForms.exe.manifest
+C:\Users\vinic\OneDrive\Área de Trabalho\Área de Trabalho\HACKEMAN\C#\WindForms\WindForms\obj\Debug\WindForms.application
+C:\Users\vinic\OneDrive\Área de Trabalho\Área de Trabalho\HACKEMAN\C#\WindForms\WindForms\obj\Debug\WindForms.Form2.resources
