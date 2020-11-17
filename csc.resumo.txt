@@ -66,6 +66,7 @@ ToString("Formato")-P-porcentagem
                     E-exponencial
                     F-ponto fixo(numero de casas)
                     X-hexadecimal
+https://docs.microsoft.com/pt-br/dotnet/standard/base-types/standard-numeric-format-strings
 --------------------------
 
 ----------Enumeradores------------
