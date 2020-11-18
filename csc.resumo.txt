@@ -3,6 +3,13 @@ csc programa.csc
 .\programa
 ---------------------------
 
+----------string-----------
+string.Substring(local de inicio do corte,tamanho do cofte);
+string.CompareTo(String);0-igual,-1-diferente
+string.Equals(string);
+
+---------------------------
+
 -------Bibliotecas---------
 using biblioteca;
 System-biblioteca padrao-para escrever e mostrar dados
