@@ -11,7 +11,18 @@ System-biblioteca padrao-para escrever e mostrar dados
 -------metodos-------------
 protecao retorno nome(parametros){codigo }
 static void Main(){}--metodo principal
+virtuais---
+metodos de mesmo nome mas em classes diferentes(herdada)
+podera ser sobrescrito em uma classe derivada
+virtual metodo(){
 
+}
+sobrescrever na classe derivada
+override metodo(){
+
+}
+sera executado o metodo sobrescrito
+---
 ---------------------------
 
 --------variaveis---------
@@ -195,7 +206,16 @@ Objeto nome=new Objeto();
 this-apontar atributo do objeto
 
 getters-setters---
-
+usar o metodo Atributo para setar e pegar valores
+private atributo;
+private Atributo{
+    get{
+        return atributo;
+    }
+    set{
+        atributo=value;
+    }
+}
 ---
 --------------------------------
 
@@ -223,3 +243,61 @@ class ClasseFilho:ClasseHeranca{
 
 }
 --------------------------------
+
+----------abstração------------
+classes abstratas---
+não sao instanciadas, apenas herdadas
+abstract class nome{
+
+}
+---
+
+métodos abstratos---
+abstract metodo();-apenas implementar método na classe que herdada
+---
+-------------------------------
+
+--------sealed-----------------
+classes---
+sealed classe{
+
+}
+---
+
+------------------------------
+
+-----------indexador----------
+permite objeto ser utilizado como array
+private tipo array[];
+-referenciar array-> 
+public mesmotipo  this[inidice]{
+    get{
+        return array[indice];
+    }
+    set{
+        array[indice]=value;
+    }
+}
+usar indexador
+Objeto nome=new Objeto();
+nome[indice]=atribuição;
+------------------------------
+
+-----------interfaces---------
+apenas prototipos de metodos, classes que implementam interfaces devem implementar interfaces
+nao podem ter construtor nem destrutor
+sem definir propriedades
+public interface nome{
+    metoro1();
+
+}
+------------------------------
+
+-----------struct------------
+não pode ser herdado e nem herdar
+pode existir contrutores
+struct Nome{
+    atributos;
+    
+}
+-----------------------------
