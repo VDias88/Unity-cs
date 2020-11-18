@@ -23,6 +23,12 @@ override metodo(){
 }
 sera executado o metodo sobrescrito
 ---
+
+retornam objetos---
+    public Objeto metodo(){
+        return new Objeto();
+    }
+---
 ---------------------------
 
 --------variaveis---------
@@ -295,9 +301,14 @@ public interface nome{
 
 -----------struct------------
 não pode ser herdado e nem herdar
+classes mais simples
 pode existir contrutores
 struct Nome{
     atributos;
-    
+
 }
+Struct nome=new Struct();
+arrays de structs---
+Structs[] nome=new Structs();
+---
 -----------------------------
