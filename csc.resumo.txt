@@ -319,3 +319,24 @@ arrays de structs---
 Structs[] nome=new Structs();
 ---
 -----------------------------
+
+----------delegates----------
+elemento que permite fazer referência á um metodo
+delegate tipodosmetodos nome();
+Nome nome1=new Nome();
+nome1=new Nome(metodo);
+nome1(parametros do metodo apontado);
+-----------------------------
+
+-------string[]-args---------
+no metodo Main(string[] args)-usar para passar argumentos para o programa na Execução
+.\programa argumentosarray
+-----------------------------
+
+----------namespace----------
+organizar classes
+namespace Nome{
+    classes
+}
+usando namespaces em outros Nome.Classe
+-----------------------------
