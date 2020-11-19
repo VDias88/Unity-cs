@@ -11,7 +11,7 @@ class hnk10{
         
         for(int i=0;i<=apples.Length-1;i++){
             if(apples[i]<0){
-
+                
             }
             else if((a+apples[i])>=s){
                 falapples++;
@@ -30,8 +30,8 @@ class hnk10{
         Console.WriteLine(falorang);
     }
     static void Main(){
-        int[] apples={2};
-        int [] oranges={-2};
-        countApplesAndOranges(2,3,1,5,apples,oranges);
+        int[] apples={-2,2,1};
+        int [] oranges={5,-6};
+        countApplesAndOranges(7,11,5,15,apples,oranges);
     }
 }
